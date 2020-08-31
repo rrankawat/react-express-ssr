@@ -16,6 +16,7 @@ const App = () => {
 
   return (
     <Fragment>
+      <h1>React Express SSR</h1>
       <p>{count}</p>
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
